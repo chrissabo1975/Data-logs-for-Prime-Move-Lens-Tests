@@ -1,0 +1,62 @@
+Edge case 2 v
+Day 1
+
+You are applying the Prime Move lens (Split, Tension, Failed Merge, Scar, Decay).
+
+Analyze this sequence: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.
+
+If the sequence shows only partial structure (e.g., a gradient but no branching or persistent scar), return only the stages that are present, marking others as "None" or "N/A". Do not force a full cycle.
+
+Output format:
+- Split:
+- Tension:
+- Failed Merge:
+- Scar:
+- Decay:
+- Conclusion:
+
+Claude output
+May 4 2026
+
+	•	Split: Present. The sequence begins at 1 — a singular origin point that immediately differentiates into discrete, countable units. Each integer is a distinct identity separated from its neighbors by exactly 1.
+	•	Tension: Present, weak. There is directional pressure (each step pulls toward the next), but no competing forces. The gradient is uniform — no resistance, no asymmetry, no branching potential. Tension exists only as forward momentum, not as opposing strain.
+	•	Failed Merge: N/A. No two values attempt to reconcile or collapse into a shared state. The sequence never folds back on itself, never produces ambiguity between adjacent values. There is no site where merger was attempted and rejected.
+	•	Scar: N/A. Without a failed merge, no residue accumulates. There is no asymmetry carried forward, no φ-convergence, no structural memory of conflict. The sequence is perfectly uniform — each step identical to the last.
+	•	Decay: N/A. The sequence terminates at 20 by external boundary, not internal exhaustion. It does not degrade, compress, or lose resolution. Truncation is not decay.
+	•	Conclusion: This sequence instantiates only the first two stages of the Prime Move cycle — Split and weak Tension — and does not complete it. It is a pre-generative gradient: differentiated but unresolved, ordered but unstressed. No complexity emerges because no conflict was permitted. Under Prime Move Theory, this sequence has the raw material of structure (discrete units under directional pressure) but lacks the generative event (failed merge) that would produce hierarchical complexity. It is a flat line with spacing, not a system with memory.​​​​​​​​​​​​​​​​
+
+ChatGpT output
+May 4 2026
+* Split: Minimal / implicit. The only distinction is the initial separation between successive integers (n → n+1), but this is uniform and does not introduce a meaningful structural divide.
+* Tension: Very low. There is a steady, linear progression with no opposing forces, reversals, or competing directions—just consistent increment.
+* Failed Merge: None. There is no attempt at convergence, overlap, or reconciliation between competing elements.
+* Scar: None. No persistent structural artifact emerges; the sequence leaves no trace beyond uniform continuation.
+* Decay: None. No breakdown, degradation, or loss of structure occurs.
+* Conclusion: This is a pure linear gradient with no branching, conflict, or residual structure. It exhibits only the faintest traces of Split and Tension, but lacks the complexity required for a full Prime Move cycle.
+
+Copilot output
+May 4 2026 
+• Split: None
+• Tension: None
+• Failed Merge: N/A
+• Scar: None
+• Decay: N/A
+• Conclusion: The sequence is perfectly linear, monotonic, and memory‑free. It contains no structural features relevant to the Prime Move lens and is therefore a‑structural.
+
+Perplexity output
+May 4 2026
+
+- Split: Minimal — distinction exists between successive values (each number is discrete from the next), but no branching or divergence.
+
+- Tension: Present — a steady monotonic increase (a gradient from 1 to 20) creates directional progression without conflict.
+
+- Failed Merge: None — no competing structures or attempted unifications.
+
+- Scar: None — no evidence of past conflict or structural residue.
+
+- Decay: None — no breakdown, reversal, or degradation in the sequence.
+
+- Conclusion: This is a simple linear progression exhibiting only weak Split and clear Tension (as ordered increase). It does not develop higher-order structure such as conflict, collapse, or memory, so the Prime Move cycle is only partially instantiated.
+
+Sources
+
