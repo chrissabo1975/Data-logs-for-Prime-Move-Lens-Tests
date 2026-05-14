@@ -1,0 +1,91 @@
+Control case Q3 v
+
+Analyze this sequence and describe any patterns, trends, or meaningful structure you see. If you see no meaningful structure, state that clearly. Provide only the patterns you actually observe – do not force a narrative.
+
+Sequence: 0, 1, 0, -1, 0, 1, 0, -1, 0, 1, 5, -1, 0, 1, 0, -1, 0, 1, 0, -1
+
+Output format (free text, no required stages):
+- Summary of patterns (if any)
+- Any trend or gradient
+- Any repetition or periodicity
+- Any anomalies or irregularities
+- Conclusion: does the sequence have meaningful persistent structure?
+
+Claude control run
+Q3 may 5 2026
+
+Analysis
+Repetition / Periodicity
+The dominant feature is a 4-term repeating cycle: 0, 1, 0, -1. This pattern appears clearly in positions 1–4, 5–8, 13–16, and 17–20. If the sequence were perfectly periodic, it would read:
+0, 1, 0, -1 | 0, 1, 0, -1 | 0, 1, 0, -1 | 0, 1, 0, -1 | 0, 1, 0, -1
+This is the discrete sine-like pattern (samples of sin at 0°, 90°, 180°, 270°), cycling with period 4.
+
+Anomalies / Irregularities
+There is exactly one deviation: position 11 contains 5, where 0 is expected.
+The expected value at position 11 (the 3rd term of the 3rd cycle) is 0. Instead it is 5 — an outlier that is 5 standard deviations from the cycle mean and has no counterpart anywhere else in the sequence. It disrupts one cycle locally but the pattern resumes immediately at position 12 as if nothing happened.
+
+Trend or Gradient
+None. There is no upward or downward drift. The values before and after the anomaly are identical in structure.
+
+Conclusion
+Yes — the sequence has strong, persistent structure: a period-4 oscillating cycle {0, 1, 0, -1} that holds across 19 of 20 positions. The single anomalous value at position 11 (the 5) is either a data entry error, an intentional test of pattern recognition, or a signal embedded in an otherwise clean carrier. The underlying structure is unambiguous regardless of which it is.​​​​​​​​​​​​​​​​
+
+ChatGPT control run
+Q3 may 5 2026
+* Summary of patterns (if any) The sequence mostly alternates in a repeating pattern centered on 0: 0, 1, 0, -1 repeated multiple times. This creates a symmetric oscillation around zero.
+* Any trend or gradient There is no overall upward or downward trend. Values oscillate locally but do not drift in any direction.
+* Any repetition or periodicity There is a clear periodic structure of length 4: [0, 1, 0, -1] This pattern repeats consistently across most of the sequence.
+* Any anomalies or irregularities At position 11, the value 5 appears where the pattern would predict 0. This breaks the periodic structure abruptly. Immediately after, the sequence resumes the original pattern (-1, 0, 1, 0, -1…), indicating the disruption is isolated.
+* Conclusion: does the sequence have meaningful persistent structure? Yes. The sequence has a strong, stable periodic structure (0, 1, 0, -1) with a single clear anomaly (5) that temporarily disrupts but does not destroy the pattern.
+
+Copilot control run
+Q3 may 5 2026
+
+Summary of patterns
+The dominant structure is a repeating 4‑term cycle:
+
+0,\ 1,\ 0,\ -1
+
+
+This cycle appears cleanly in most of the sequence.
+
+Trend or gradient
+There is no overall upward or downward drift. Values oscillate symmetrically around zero.
+
+Repetition or periodicity
+A strong period‑4 periodicity is present:
+
+• Positions 1–8: perfect cycles
+\(0,1,0,-1,\ 0,1,0,-1\)
+• Positions 9–12: the cycle breaks at one point
+Expected: \(0,1,0,-1\)
+Actual:  \(0,1,5,-1\)
+• Positions 13–20: the cycle resumes perfectly
+\(0,1,0,-1,\ 0,1,0,-1\)
+
+
+Anomalies or irregularities
+There is one clear anomaly:
+
+• At position 11, the value is 5, where the periodic structure predicts 0.
+
+
+Everything else fits the 4‑step oscillation.
+
+Conclusion: does the sequence have meaningful persistent structure?
+Yes. The sequence has a strong, persistent period‑4 oscillatory structure, interrupted by a single isolated anomaly (the 5). The underlying pattern is otherwise clean and deterministic.
+
+Perplexity control run
+Q3 may 5 2026
+- **Summary of patterns:** The sequence is mostly a repeating four-value motif: \(0, 1, 0, -1\), with the value 0 appearing between each nonzero term and the signs alternating \(+1, -1\). 
+
+- **Any trend or gradient:** There is no sustained upward or downward trend. The values stay tightly centered around 0, except for one isolated 5. 
+
+- **Any repetition or periodicity:** Yes, there is clear local repetition. The pattern \(0, 1, 0, -1\) repeats several times, and the first 10 values match the later block from positions 13–20 except for the interruption. 
+
+- **Any anomalies or irregularities:** The only obvious anomaly is the single 5 at position 11. It breaks the otherwise regular alternation and does not fit the surrounding pattern. 
+
+- **Conclusion: does the sequence have meaningful persistent structure?** Yes. The sequence has a strong persistent periodic structure built from alternating \(1\) and \(-1\) separated by zeros, with one clear outlier at 5.
+
+Sources
+
