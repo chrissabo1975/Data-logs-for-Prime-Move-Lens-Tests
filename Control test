@@ -1,0 +1,134 @@
+Control test v
+
+Control Test 
+
+You are applying the Prime Move structural lens. It consists of five stages: Split, Tension, Failed Merge, Scar, Decay.
+
+Your task: Analyze the following sequence of 20 random numbers. If the sequence shows no meaningful persistent structure (no causal connections, no branching, no memory, no gradients), state clearly that the sequence is a‑structural and do NOT force it into the five stages. Do not invent a narrative.
+
+Sequence: 96, 83, 19, 20, 5, 88, 10, 6, 43, 33, 90, 5, 13, 32, 96, 68, 21, 67, 69, 50
+
+Output format:
+- Split: (state or "None")
+- Tension: (state or "None")
+- Failed Merge: (state or "N/A")
+- Scar: (state or "None")
+- Decay: (state or "N/A")
+- Conclusion: (one sentence summarizing whether the sequence has genuine structure)
+
+Perplexity run
+May 4 2026
+
+Split: None  
+Tension: None  
+Failed Merge: N/A  
+Scar: None  
+Decay: N/A  
+Conclusion: The sequence is a-structural: it shows no clear persistent memory, causal linkage, branching, or gradient, so it should not be forced into the five-stage lens.[1][2]
+
+Sources
+[1] Analysing Humanly Generated Random Number Sequences - PMC https://pmc.ncbi.nlm.nih.gov/articles/PMC3402418/
+[2] Time-series analysis: why causality is the only way | causaLens https://causalai.causalens.com/resources/blog/time-series-analysis-why-causality-is-the-only-way/
+[3] Random Projections and Natural Sparsity in Time-Series Classification https://arxiv.org/html/2502.17061v1
+[4] Introduction to Recurrent Neural Networks - GeeksforGeeks https://www.geeksforgeeks.org/machine-learning/introduction-to-recurrent-neural-network/
+[5] Time series - Wikipedia https://en.wikipedia.org/wiki/Time_series
+[6] Recurrent neural network - Wikipedia https://en.wikipedia.org/wiki/Recurrent_neural_network
+[7] Gradient-Free Training of Recurrent Neural Networks using Random ... https://arxiv.org/html/2405.08967v3
+[8] Rethinking Time Series Prediction Through the Lens of Chunk-wise ... https://openreview.net/forum?id=eyjrms4HHm&noteId=4ZVtbWogNl
+[9] [PDF] Long Short-Term Memory - Deep Learning, CMU https://deeplearning.cs.cmu.edu/S23/document/readings/LSTM.pdf
+[10] Correlating with a random time series - Physical Sciences Laboratory https://psl.noaa.gov/data/correlation/random.html
+
+
+
+Co pilot run          may 4,2026 
+
+ Here is the clean, correct application of the Prime Move lens to your sequence without inventing structure.
+
+Because the sequence is random and shows no persistence, no directional gradient, no causal residue, no branching, no memory, the correct output is a null result.
+
+---
+
+Prime Move Analysis (Null Result)
+
+• Split: None
+• Tension: None
+• Failed Merge: N/A
+• Scar: None
+• Decay: N/A
+
+
+Conclusion: The sequence is a‑structural; it contains no meaningful or persistent pattern for the Prime Move lens to operate on.
+
+---
+
+If you want, you can run more sequences, or test edge cases (semi‑structured noise, periodic signals, chaotic-but-deterministic sequences, etc.).
+
+Gemini run 
+May 4 2026
+Based on the Prime Move structural lens, here is the analysis of the provided sequence:
+ * **Split:** None
+ * **Tension:** None
+ * **Failed Merge:** N/A
+ * **Scar:** None
+ * **Decay:** N/A
+**Conclusion:** This sequence is **a‑structural**, as the values fluctuate erratically without causal memory, persistent gradients, or any developmental trajectory required to sustain a structural narrative.
+
+
+Claude run
+May 4 2026
+	•	Split: None
+	•	Tension: None
+	•	Failed Merge: N/A
+	•	Scar: None
+	•	Decay: N/A
+	•	Conclusion: This sequence is a-structural — it contains no causal connections, no directional memory, no gradients, and no persistent residue; the Prime Move lens finds nothing meaningful here.
+That’s a good result Chris.
+The framework correctly returned null on random input. That’s what a discriminating diagnostic should do. It didn’t force a narrative where none existed.
+This is actually meaningful evidence that the lens isn’t simply finding patterns everywhere. That’s the opposite of what a broken framework does.
+This is the kind of small testable step worth documenting.​​​​​​​​​​​​​​​​
+
+
+Grok run
+May 4 2026 Output:
+* Split: None
+* Tension: None
+* Failed Merge: N/A
+* Scar: None
+* Decay: N/A
+Conclusion: This is a random, a-structural sequence with no persistent pattern, memory, causal links, or meaningful structure. The Prime Move lens finds nothing substantive to analyze.
+
+
+Google web browser Gemini run may 4 2026
+
+* Split: None
+* Tension: None
+* Failed Merge: N/A
+* Scar: None
+* Decay: N/A
+* Conclusion: The sequence is a-structural as it consists of random fluctuations with no persistent causal connections, gradients, or memory.
+Would you like to analyze a mathematical progression or a data set with a known underlying logic?
+
+
+
+ChatGPT run
+May 4 2026
+
+* Split: None
+* Tension: None
+* Failed Merge: N/A
+* Scar: None
+* Decay: N/A
+* Conclusion: The sequence is a-structural, showing no consistent patterns, dependencies, or evolving relationships that would justify mapping it onto the five stages.
+
+
+
+Meta run 
+May 4 2026
+
+- Split: None
+- Tension: None
+- Failed Merge: N/A
+- Scar: None
+- Decay: N/A
+- Conclusion: The sequence is a-structural, showing no persistent causal connections, branching, memory, or gradients, only random variation.
+
