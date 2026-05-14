@@ -1,0 +1,88 @@
+D2 edge case 2 v
+
+You are applying the Prime Move lens (Split, Tension, Failed Merge, Scar, Decay).
+
+Analyze this sequence: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.
+
+If the sequence shows only partial structure (e.g., a gradient but no branching or persistent scar), return only the stages that are present, marking others as "None" or "N/A". Do not force a full cycle.
+
+Output format:
+- Split:
+- Tension:
+- Failed Merge:
+- Scar:
+- Decay:
+- Conclusion:
+
+Claude  may 5 2026
+
+	•	Split: The sequence originates from a single generative act — the operation of +1 applied repeatedly from 1. One rule, one starting point, cleaving into 20 distinct values. The differentiation is clean and total: every element is unique.
+	•	Tension: Present, but weak. Adjacent elements are in constant near-relation (each differs from its neighbor by exactly 1), creating a sustained pull between “almost the same” and “not the same.” The uniformity of the interval is itself a kind of tension — sameness straining against difference at every step.
+	•	Failed Merge: N/A. No two elements attempt to resolve into each other. The constant interval means nothing collapses, nothing tries to return. There is no moment of convergence that fails.
+	•	Scar: N/A. Because no merge is attempted, nothing is left behind by a failed one. The sequence carries no memory of conflict — each step is structurally identical to the last. There is no accumulated asymmetry, no Fibonacci-style residue building toward φ.
+	•	Decay: N/A. The sequence simply ends at 20 by external boundary, not internal exhaustion. There is no entropy gradient, no dissolution of structure. Termination is imposed, not emergent.
+	•	Conclusion: This sequence instantiates Split and weak Tension only. It is a gradient without complexity — a first-order generative structure that never folds back on itself, never fails, and therefore never scars. Under the Prime Move lens, it sits at the boundary between Tier 1 (pure differentiation) and the threshold where Tension would need to intensify into a genuine merge attempt to push it further. It is not a full Prime Move cycle. It is the raw material a Prime Move cycle would act on.​​​​​​​​​​​​​​​​
+
+ChatGPT may 5 2026 
+
+* Split: None
+* Tension: None
+* Failed Merge: None
+* Scar: None
+* Decay: None
+* Conclusion:
+    This is a pure linear progression (+1 increment). It exhibits a consistent gradient but no branching, opposition, disruption, or memory. Therefore, it does not meaningfully engage the Prime Move structure.
+
+Copilot may 5 2026
+
+Takeaway:
+This sequence is a perfectly smooth monotonic gradient with no branching, no reversals, no anomalies, and no structural tension. Under the Prime Move lens, it expresses no cycle—only a single undifferentiated drift.
+
+---
+
+Split:
+
+None
+There is no bifurcation, no divergence, no competing trajectories. The sequence increments by +1 with zero deviation.
+
+Tension:
+
+None
+No oscillation, no push–pull, no competing attractors. The system never strains against itself.
+
+Failed Merge:
+
+N/A
+A failed merge requires at least two competing paths attempting reconciliation. This sequence has only one path.
+
+Scar:
+
+N/A
+No rupture, no anomaly, no persistent artifact. Nothing interrupts the gradient.
+
+Decay:
+
+None
+No collapse, no tapering, no return to baseline. The sequence simply continues upward.
+
+---
+
+Conclusion:
+
+This is a pure linear gradient with no Prime Move structure. It is a single, unbranched, tensionless progression—structurally equivalent to a straight line with no events.  
+
+Perplexity may 5 2026
+
+- Split: Minimal — implicit distinction between successive states (each number differs from the previous), but no branching or bifurcation.
+
+- Tension: Present — a steady, uniform gradient of increase (\(+1\) per step) creates directional progression without conflict.
+
+- Failed Merge: None — no competing structures or convergence attempts appear.
+
+- Scar: None — no residual mark, discontinuity, or memory of prior structural conflict.
+
+- Decay: None — no breakdown, reversal, or loss of structure; the sequence remains stable and consistent.
+
+- Conclusion: This is a purely linear progression exhibiting only low-level tension (incremental change). It lacks higher-order structure such as branching, collapse, or memory, so the Prime Move cycle is not activated beyond its most minimal form.
+
+Sources
