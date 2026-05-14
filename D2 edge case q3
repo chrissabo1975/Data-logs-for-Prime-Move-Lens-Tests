@@ -1,0 +1,78 @@
+D2 edge case q3 v
+
+You are applying the Prime Move lens (Split, Tension, Failed Merge, Scar, Decay).
+
+Analyze this sequence: 0, 1, 0, -1, 0, 1, 0, -1, 0, 1, 5, -1, 0, 1, 0, -1, 0, 1, 0, -1.
+
+(Note: at position 10, the expected -1 is replaced by 5 – a sudden phase jump.)
+
+If the sequence shows only partial structure (e.g., a gradient but no branching or persistent scar), return only the stages that are present, marking others as "None" or "N/A". Do not force a full cycle.
+
+Output format:
+- Split:
+- Tension:
+- Failed Merge:
+- Scar:
+- Decay:
+- Conclusion:
+
+Claude may5 2026
+
+Prime Move Analysis: Oscillating Sequence with Phase Anomaly
+Sequence: 0, 1, 0, -1, 0, 1, 0, -1, 0, 1, 5, -1, 0, 1, 0, -1, 0, 1, 0, -1
+
+	•	Split: Present. The base oscillation (0 ↔ 1 ↔ 0 ↔ -1) establishes a clean binary polarity — positive and negative excursions separating from a neutral ground state. This is the foundational differentiation; the sequence knows what it is before position 10.
+	•	Tension: Present. The regularity of the cycle itself generates tension — each return to 0 is a near-merge that doesn’t hold. The system keeps failing to rest. By position 9 (value 1), the pattern has run two full clean cycles and is primed for a third. That accumulated regularity is load-bearing; it makes the anomaly meaningful.
+	•	Failed Merge: Present, and this is where the anomaly lives. Position 10 should be -1 — the expected negative excursion completing cycle 3. Instead it’s 5: an overshoot so large it isn’t a variation, it’s a rupture. The system attempted the familiar transition and something else happened. The merge with the prior pattern failed catastrophically. This is the clearest stage in the sequence.
+	•	Scar: Partial / Weak. After the 5, the sequence resumes the original oscillation almost immediately (positions 11–19 return to the -1, 0, 1, 0, -1… pattern without further anomaly). The 5 leaves no lasting deformation — the rhythm doesn’t shift, the amplitude doesn’t change, no phase offset accumulates. There is a positional scar (the record that position 10 ≠ -1), but structurally the sequence behaves as if it absorbed the rupture and continued unmarked. Call this a surface scar: the event is traceable but not load-bearing on what follows.
+	•	Decay: N/A. The post-anomaly oscillation is indistinguishable from the pre-anomaly oscillation. No amplitude dampening, no drift, no fragmentation into substates. If anything, the sequence demonstrates anti-decay — resilience, not entropy.
+
+	•	Conclusion: This sequence shows a full Prime Move cycle through Failed Merge, but with an unusual post-rupture outcome: recovery without scar integration. The anomaly at position 10 is real — it satisfies Failed Merge completely — but the system doesn’t carry it forward. In PMT terms, this resembles a pathway that absorbed a high-energy input without branching: the 5 wasn’t integrated, it was expelled. That’s distinct from a Scar (which reshapes future structure) and from Decay (which degrades it). The more precise framing may be that the sequence demonstrates resilience as a failure mode of scar formation — the system was too stable to be changed by what hit it, which is its own kind of arrested development.​​​​​​​​​​​​​​​​
+
+ChatGPT may5 2026
+
+* Split:
+    Emergence of a stable alternating scaffold: 0 → 1 → 0 → -1 pattern begins early and repeats, indicating a structured baseline cycle rather than random noise.
+* Tension:
+    Persistent oscillation between +1 and -1 around a neutral 0 axis. This creates a stable equilibrium dynamic where the system repeatedly returns to center.
+* Failed Merge:
+    At position 10, the expected return to -1 is replaced by 5, producing a sharp phase break. This is an over-amplified excursion that does not integrate into the local oscillatory logic.
+* Scar:
+    None persistent. After the anomaly, the sequence does not retain distortion, drift, or altered periodicity.
+* Decay:
+    The system rapidly re-stabilizes, returning to the original 0 ↔ ±1 oscillatory structure, effectively damping the disruption.
+* Conclusion:
+    This is a primarily stable oscillatory system with one isolated high-amplitude perturbation (the 5). The structure shows resilience: the anomaly does not propagate, mutate the cycle, or leave a lasting structural imprint.
+
+Less powerful model indicated by ChatGPT 
+
+Copilot may5 2026
+
+• Split: Present. The base oscillation (0 → 1 → 0 → –1 → 0 …) is a clean two‑pole alternation. This is a stable Split with no drift: the system keeps returning to the same poles.
+• Tension: Present. The oscillation itself is the tension—continuous cycling between opposite poles with no resolution. The amplitude is stable until the anomaly at position 10.
+• Failed Merge: Present, but only at the anomaly. The expected –1 is replaced by 5, which is not a smooth continuation, not a drift, and not a new branch. It is a phase jump—a sudden, unintegrated value that does not merge with the ongoing pattern. This is a textbook Failed Merge spike.
+• Scar: Weak but present. After the 5, the system immediately snaps back to the original oscillation. That snap‑back is the scar: the system rejects the anomaly and restores the prior structure. There is no long‑term deformation, but the discontinuity is real.
+• Decay: None / N/A. The pattern does not degrade, flatten, or lose amplitude. It returns to full structure immediately after the anomaly.
+
+
+---
+
+Conclusion
+
+This sequence is a stable oscillatory Split–Tension system with a single Failed Merge spike (the 5) that leaves a momentary Scar but no Decay. The anomaly is absorbed without altering the long‑term structure.
+
+Perplexity may 5 2026
+
+- Split: Present — the system departs from baseline \(0\) into alternating states \(+1\) and \(-1\), indicating a clean bifurcation into opposing phases.
+
+- Tension: Present — sustained oscillation between \(+1\) and \(-1\) with repeated returns to \(0\), showing a stable rhythmic opposition (a balanced gradient without escalation).
+
+- Failed Merge: Present (localized) — the insertion of \(5\) at position 10 breaks the expected \(-1\), acting as a sudden overcorrection or phase spike that does not integrate with the established oscillatory pattern.
+
+- Scar: None — the anomaly does not persist; the sequence immediately returns to the prior oscillatory structure, leaving no lasting deformation.
+
+- Decay: None — there is no damping, drift, or collapse of the oscillation after the disruption; the system resumes its prior form.
+
+- Conclusion: The sequence exhibits a stable Split–Tension regime with a single transient Failed Merge event. The system absorbs the disruption without retaining memory (no scar) and continues its prior dynamics unchanged.
+
+Sources
