@@ -1,0 +1,76 @@
+D2 edge case 1 v
+
+You are applying the Prime Move lens (Split, Tension, Failed Merge, Scar, Decay).
+
+Analyze this sequence: 1, 3, 2, 5, 4, 7, 6, 9, 8, 11, 10, 13, 12, 15, 14, 17, 16, 19, 18, 21.
+
+If the sequence shows only partial structure (e.g., a gradient but no branching or persistent scar), return only the stages that are present, marking others as "None" or "N/A". Do not force a full cycle.
+
+Output format:
+- Split:
+- Tension:
+- Failed Merge:
+- Scar:
+- Decay:
+- Conclusion:
+
+Claude 
+May 5 2026
+
+	•	Split: The sequence begins at 1, then immediately bifurcates into two interleaved streams — odd integers (1, 3, 5, 7, 9…) and even integers (2, 4, 6, 8, 10…). These are two distinct generative lines running in parallel.
+	•	Tension: Each adjacent pair enacts a local reversal: (3,2), (5,4), (7,6), (9,8), etc. The larger value always precedes the smaller, creating a persistent forward-then-back oscillation. The odd stream is always one step ahead of the even stream it’s paired with — a stable asymmetry held under pressure.
+	•	Failed Merge: The two streams never converge. Each attempted “handoff” between odd and even (3→2, 5→4) looks like a crossing point but resolves immediately back into sequence. No synthesis occurs; the pairing is structural but not integrative. The gap between streams stays fixed at 1 throughout.
+	•	Scar: N/A — No scar accumulates. The fixed-gap asymmetry is preserved, not metabolized. There is no residue that compounds across cycles. Each pair resets to the same relationship. This is a system that holds its tension without scarring.
+	•	Decay: N/A — The sequence shows no amplitude reduction, no drift toward convergence, and no loss of differentiation. Both streams maintain full generative momentum through the visible range.
+	•	Conclusion: This sequence instantiates Split and Tension without resolution. It is a clean two-pathway system locked in stable opposition — what Prime Move would likely classify as a pre-scar oscillator: structure is present, the split is real, the tension is maintained, but no failed merge generates enough asymmetric residue to scar. If the framework has a category for sustained bifurcation without integration, this is a textbook example. It does not complete a Prime Move cycle; it runs indefinitely at stage two.​​​​​​​​​​​​​​​​
+
+ChatGPT 
+May 5 2026
+
+* Split:
+    A clear bifurcation exists between two interleaved progressions:
+    (1, 2), (3, 4), (5, 6), … forming paired units where each pair contains consecutive integers.
+* Tension:
+    Within each pair, the expected ascending order is inverted: instead of (1, 2), (3, 4), the sequence presents (1, 3, 2, 5, 4, …). This creates a consistent local disruption—an alternation between forward progression and immediate reversal (odd jumps forward, then even steps backward).
+* Failed Merge:
+    There is no evidence of an attempted reconciliation into a single smooth ordering. The system does not try and fail to unify; it deliberately maintains the alternating structure. → None
+* Scar:
+    The persistent structural mark is the repeating “swap” pattern: every even number is displaced one position later than expected. This produces a stable, repeating motif:
+    (+2 jump, −1 correction).
+    This pattern persists uniformly across the entire sequence.
+* Decay:
+    No breakdown or degradation occurs. The pattern remains perfectly stable through the full range. → None
+* Conclusion:
+    This sequence exhibits a clean, stable alternating structure built from paired inversions. It contains a clear Split and sustained Tension, which crystallize into a repeating Scar (the swap pattern). There is no Failed Merge or Decay, indicating a controlled, non-collapsing system rather than a dynamic or degenerative one.
+
+Copilot 
+May 5 2026
+
+• Split:
+Present. Each pair \((2n+1, 2n)\) shows a clean, repeated micro‑split: the system jumps upward (odd number), then immediately flips downward (even number). This is a stable alternation, not a branching event.
+• Tension:
+Present. The oscillation between +1 and –1 around the local midpoint of each pair creates a minimal, rhythmic tension: the system never settles into monotonic growth, but the disturbance is shallow and perfectly periodic.
+• Failed Merge:
+None / N/A.
+There is no attempt to reconcile the oscillation into a single trajectory. The pattern does not show collapse, interference, or convergence failure—just a stable alternation.
+• Scar:
+None / N/A.
+No persistent deformation, no memory trace, no structural kink. Each pair is identical in form; nothing accumulates.
+• Decay:
+None / N/A.
+The oscillation does not degrade, widen, drift, or collapse. It is perfectly stable and indefinitely repeatable.
+• Conclusion:
+This sequence expresses a pure Split–Tension microcycle: a stable, repeating alternation with no escalation, no breakdown, and no structural residue. It is a textbook example of period‑2 oscillation without further generative movement.
+
+Perplexity 
+May 5 2026
+
+- Split: Present — the sequence repeatedly divides into two interleaved tracks: odd numbers advance by 2 while evens are displaced into the next odd slot.
+- Tension: Present — each pair creates a local mismatch, since the expected numerical order is consistently deferred.
+- Failed Merge: Present — the sequence never settles into standard ascending order; the reordered elements keep failing to recombine.
+- Scar: None — there is no persistent rupture marker or irreversible remnant beyond the repeated displacement pattern.
+- Decay: None — the pattern does not degrade over time; it remains stable and regular throughout.
+
+Conclusion: This is a partial structure showing repeated split and tension with failed merge, but no clear scar or decay.
+
+Sources
