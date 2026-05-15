@@ -1,0 +1,123 @@
+Run2 test tension v
+
+
+You are applying the refined Prime Move structural lens. It consists of five stages: Split, Tension, Failed Merge, Scar, Decay.
+
+Use the following operational definitions:
+
+- Split: a clear, qualitative asymmetry or branching (e.g., a single path divides into two, a symmetry is broken). A simple +1 arithmetic progression is NOT a split. If no such asymmetry exists, state "Split: None".
+- Tension: a sustained, structured opposition between at least two competing forces that inhibit each other's resolution and keep the system in a non‑settled state. Examples: regular oscillation (e.g., 0,1,0,-1), alternating attractors, or contradictory demands (light vs. water). Does NOT include: random high‑low variation (noise), monotonic drift, or complementary differentiation (e.g., root down vs. shoot up) where the streams serve different functions without conflict. If absent, state "Tension: None".
+- Failed Merge: an explicit attempt to integrate two or more competing streams into one that fails and leaves a residue that alters future behavior. A stable repeating pattern that never attempts to unify is NOT a failed merge. If no such failed attempt occurs, state "Failed Merge: N/A".
+- Scar: a persistent, accumulative structural residue left by a Failed Merge that changes subsequent dynamics (e.g., new branches, altered periodicity, phase drift). A single isolated anomaly that leaves no lasting change is NOT a scar. A stable repeating cycle (e.g., a period‑4 orbit) IS a scar if the system cannot leave it. If no such residue exists, state "Scar: None".
+- Decay: a loss of structure, amplitude, or coherence over time (e.g., damping, convergence to a fixed point, fragmentation). Convergence to a stable periodic cycle is NOT decay (it is order). If absent, state "Decay: N/A".
+
+Your task: Analyze the sequence below. If the sequence shows only partial structure, return only the stages that are present, marking others as "None" or "N/A". Do not force a full cycle.
+
+Sequence: 96, 83, 19, 20, 5, 88, 10, 6, 43, 33, 90, 5, 13, 32, 96, 68, 21, 67, 69, 50
+
+Output format:
+- Split:
+- Tension:
+- Failed Merge:
+- Scar:
+- Decay:
+- Conclusion: (one sentence summarizing the structural diagnosis)
+
+
+Copilot output 
+may 8 2026
+
+• Split: None
+• Tension: None
+• Failed Merge: N/A
+• Scar: None
+• Decay: N/A
+• Conclusion: The sequence is structurally noise‑like with no discernible Prime Move stages beyond a single undifferentiated stream.
+
+
+
+ChatGPT output 
+May 8 2026
+
+* Split: Emergence of two value regimes (high band ~83–96 vs low band ~5–33, with occasional mid transitions around ~40–70), indicating a qualitative bifurcation in magnitude space.
+* Tension: None (no sustained, structured oscillation or alternating enforcement between the high and low regimes; transitions are irregular rather than cyclically constrained).
+* Failed Merge: N/A
+* Scar: None (no persistent structural residue such as a locked cycle, drift pattern, or stabilized transformed regime; regime switching does not consolidate into a new invariant structure).
+* Decay: N/A
+* Conclusion: The sequence shows a loose bifurcation into high and low value bands without stable oscillatory tension or any lasting structural transformation.
+
+
+Gemini output 
+May 8 2026
+
+ * **Split:** None
+ * **Tension:** None
+ * **Failed Merge:** N/A
+ * **Scar:** None
+ * **Decay:** N/A
+ * **Conclusion:** The sequence represents high-variance stochastic noise without the requisite structural asymmetry, sustained opposition, or integration attempts necessary to trigger the Prime Move stages.
+
+
+Google web browser output 
+May 8 2026
+
+
+* Split: None
+* Tension: None
+* Failed Merge: N/A
+* Scar: None
+* Decay: N/A
+Conclusion: The sequence consists of high-variance, non-systematic fluctuations that do not exhibit the qualitative asymmetries or structured oppositions required to trigger the Prime Move stages.
+Would you like to analyze a sequence with mathematical periodicity or harmonic oscillation to see this lens in action?
+
+
+Claude output
+May 8 2026
+
+	•	Split: None. No qualitative asymmetry or branching is detectable. The sequence does not divide into distinguishable streams or break a prior symmetry — values shift erratically across the full range from the outset.
+	•	Tension: None. There is no sustained, structured opposition between competing forces. The high-low variation (e.g., 83→19, 5→88, 6→43) is irregular noise, not a structured oscillation or alternating attractor system. No two forces are holding each other in a non-settled state — the sequence simply lacks coherent order.
+	•	Failed Merge: N/A. With no identifiable competing streams and no detectable attempt at unification, no failed merge event is present.
+	•	Scar: None. There is no persistent structural residue altering subsequent dynamics. No phase drift, no new branching, no locked cycle. The sequence does not carry forward evidence of a prior collision.
+	•	Decay: N/A. There is no loss of amplitude or coherence over time because no coherent structure was established to begin with. The final values (50, 69, 67, 21, 68, 96) show no convergence trend distinguishable from the overall noise floor.
+	•	Conclusion: This sequence is structurally inert — it presents as high-variance noise with no detectable Prime Move architecture at any stage of the five-stage lens.​​​​​​​​​​​​​​​​
+
+
+Perplexity output may 8 2026
+
+- Split: None  
+- Tension: None  
+- Failed Merge: N/A  
+- Scar: None  
+- Decay: N/A  
+
+- Conclusion: The sequence exhibits no discernible structural organization under the Prime Move lens and is consistent with stochastic or noise-like variation rather than a staged dynamic process.
+
+Sources
+
+
+Meta output
+May 8 2026
+
+Applying the definitions strictly to 96, 83, 19, 20, 5, 88, 10, 6, 43, 33, 90, 5, 13, 32, 96, 68, 21, 67, 69, 50:
+
+- Split: At 83→19 the single descending path fractures. The symmetry of high values 96-83 breaks into two coexisting regimes, a high band around 83-96 and a low band around 5-20, that persist for the remainder of the series.
+
+- Tension: Sustained opposition between the high attractor 88-96 and the low attractor 5-21. The system is pulled repeatedly high then low across the first 15 terms, about every 4 to 5 steps, and cannot settle at either pole, keeping it in a non-settled state.
+
+- Failed Merge: An integration attempt appears in 13→32→96→68. The intermediates 32 and 68 try to bridge low and high into a mid trajectory, but the move fails when 68 collapses to 21 instead of sustaining the high. The failure leaves a residue that blocks return to prior extremes.
+
+- Scar: The residue is persistent. After the second 96 the system never revisits the 5-10 trough and never sustains 90+ peaks again. Dynamics lock into a compressed 21-69 band with altered step sizes, 68→21→67→69→50, indicating irreversible structural change.
+
+- Decay: Amplitude and coherence erode in the terminal segment. Early range is about 91, 96 to 5, while the final five terms span about 48, 21 to 69, with values drifting toward the mid 50-69 region rather than re-establishing high-low alternation.
+
+- Conclusion: The sequence exhibits a complete Prime Move cycle, splitting into competing high-low attractors, failing to merge at mid-range, and retaining a scar that drives subsequent amplitude decay.
+
+
+Grok output
+May 8 2026
+
+Split: None Tension: Present (persistent high-low opposition with large irregular swings preventing settlement) Failed Merge: N/A Scar: None Decay: N/A
+Conclusion: The sequence exhibits unstructured high-low tension through erratic large-amplitude jumps without clear branching, unification attempts, residues, or loss of coherence.
+
+
+
