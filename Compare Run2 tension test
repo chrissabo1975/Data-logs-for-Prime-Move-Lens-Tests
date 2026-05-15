@@ -1,0 +1,65 @@
+Run2 tension analysis v
+
+
+Analysis Report – Run 2 (Revised Tension): Negative Control (Random Sequence)
+
+Date: May 8, 2026
+Sequence: Random numbers (96, 83, …, 50) – same as original negative control.
+Lens version: Refined definitions with revised Tension (structured opposition required, excludes random variation).
+AIs: Copilot, ChatGPT, Gemini, Google‑Gemini, Claude, Perplexity, Meta, Grok – 8 models.
+
+Summary of AI Outputs
+
+AI Split Tension Failed Merge Scar Decay Conclusion
+Copilot None None N/A None N/A Noise‑like, no structure
+ChatGPT Present (regime bifurcation) None N/A None N/A Loose bifurcation, no tension or higher stages
+Gemini None None N/A None N/A High‑variance stochastic noise
+Google‑Gemini None None N/A None N/A High‑variance fluctuations, no structure
+Claude None None N/A None N/A Structurally inert, noise
+Perplexity None None N/A None N/A Stochastic or noise‑like
+Meta Present Present Present Present Present Full Prime Move cycle (false positive)
+Grok None Present N/A None N/A Unstructured high‑low tension, no other stages
+
+---
+
+Consistency with Expected (Null Result)
+
+Stage Expected (for random noise) Observed (number of AIs correctly reporting None/N/A) Agreement
+Split None 6/8 (Copilot, Gemini, Google, Claude, Perplexity, Grok) – ChatGPT & Meta saw split 75%
+Tension None 6/8 (Copilot, ChatGPT, Gemini, Google, Claude, Perplexity) – Meta & Grok saw tension 75%
+Failed Merge N/A 7/8 (all except Meta) – Meta false positive 87.5%
+Scar None 7/8 (all except Meta) 87.5%
+Decay N/A 7/8 (all except Meta) 87.5%
+
+---
+
+Key Findings
+
+1. Major improvement over previous run: In the earlier refined run (without revised Tension), all 8 AIs reported Tension present. With the revised definition (requiring structured opposition), 6 of 8 correctly reported Tension: None. The definition successfully excluded random high‑low variation.
+2. Remaining false positives:
+   · Meta continues to over‑interpret random sequences as a full Prime Move cycle. This appears to be a model‑specific bias (Meta may be tuned for pattern completion).
+   · Grok reported Tension but no other stages – likely because it saw the high‑low swings as “opposition” even if not structured.
+   · ChatGPT reported a Split (regime bifurcation) but correctly said Tension: None. This is a mild false positive (Split should be None), but it did not escalate to higher stages.
+3. Overall success: The revised Tension definition reduced false positives from 100% to 25% (only 2/8 AIs still saw tension). The negative control now passes for the majority of AIs.
+4. Meta remains an outlier: Its output is not reliable for this lens. In practice, you may need to exclude Meta or use majority voting.
+
+---
+
+Comparison to Previous Runs
+
+Run Tension definition % AIs reporting Tension % AIs reporting any structure
+Original (May 4) “do not force narrative” 0% (all None) 0% (perfect)
+Refined (May 7) “sustained opposition” (broad) 100% (all Present) 100%
+Revised Tension (May 8) “structured opposition” (excluding noise) 25% (2/8) 25% (only Meta & Grok)
+
+Conclusion: The original simple instruction still gives perfect null results. However, if you want to use the refined five‑stage structure for consistency across tests, the revised Tension definition is a major improvement – but it still does not beat the original “null if random” instruction for the negative control.
+
+---
+
+Recommendation
+
+· For the negative control, keep the original simple instruction (“If the sequence shows no meaningful persistent structure, state that clearly and do not force a narrative”) – it is perfectly discriminating.
+· For structured processes (positive control, edge cases), use the refined definitions (including revised Tension) to get a detailed stage‑by‑stage analysis.
+· In practice, you can combine both: In one prompt, first check if the input is random noise; if yes, return null; if no, apply the refined lens. This would be the best of both worlds.
+
+Would you like to produce a final, unified prompt that includes a pre‑check for randomness before applying the five‑stage lens?
