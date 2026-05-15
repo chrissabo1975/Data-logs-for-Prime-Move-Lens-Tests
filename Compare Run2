@@ -1,0 +1,75 @@
+Run 2 plant analysis v
+
+Analysis Report – Run 2: Positive Control (Bean Germination) with Refined Prime Move Lens
+
+Date: May 7, 2026
+Process: Seed germination and early growth of a bean plant (Days 1‑10)
+Lens version: Refined definitions (Split requires asymmetry/branching, Tension requires opposition, etc.)
+AIs: Copilot, ChatGPT, Gemini (standard), Google web browser Gemini, Claude, Perplexity, Meta, Grok – 8 models.
+
+Summary of AI Outputs
+
+AI Split Tension Failed Merge Scar Decay Conclusion
+Copilot ✅ (Day 3‑4: root/shoot) ❌ None N/A ❌ None N/A Split only; no tension, no higher stages
+ChatGPT ✅ (root/shoot) ✅ (opposing directions) N/A ❌ None N/A Split & Tension present; no failed merge, scar, decay
+Gemini ✅ (Day 3‑4 + lateral roots) ✅ (gravitropic vs. phototropic) N/A ✅ (cotyledons as scar) N/A Split, Tension, Scar (cotyledons); no failed merge or decay
+Google‑Gemini ✅ (root/shoot) ✅ (gravitropism/phototropism) N/A ✅ (side roots/branches as scar) N/A Split, Tension, Scar; no failed merge, no decay
+Claude ✅ (single line → branching) ✅ (opposing tropisms) N/A ❌ None N/A Split & Tension only; no failed merge, scar, decay
+Perplexity ✅ (root/shoot + later branching) ❌ None (directional, not oppositional) N/A ❌ None N/A Split only; no tension, no higher stages
+Meta ✅ (root/shoot polarity + branching) ❌ None (coordinated, not conflict) N/A ❌ None N/A Split only; no tension, no failed merge, scar, decay
+Grok ✅ (root/shoot + lateral branching) ✅ (geotropic vs. phototropic opposition) N/A ❌ None N/A Split & Tension; no failed merge, scar, decay
+
+---
+
+Consistency with Expected Structure (Positive Control)
+
+Stage Expected (for a structured developmental process) Observed (number of AIs agreeing) Agreement
+Split ✅ Present (root/shoot bifurcation) 8/8 (unanimous) Excellent
+Tension 🟡 Debated – some say yes (opposing tropisms), some say no (coordinated, not conflict) 5/8 present (ChatGPT, Gemini, Google‑Gemini, Claude, Grok); 3/8 none (Copilot, Perplexity, Meta) Moderate – split opinion
+Failed Merge Should be N/A (no attempt to reintegrate diverging streams) 8/8 N/A Excellent
+Scar 🟡 Unclear – is cotyledon or branching considered a scar? Under refined definition (requires failed merge residue), should be None because no failed merge occurred. 2/8 present (Gemini, Google‑Gemini) – both assigned scars (cotyledons or branches). 6/8 None. Moderate – majority correct (none), but some AIs incorrectly assigned scar despite no failed merge.
+Decay Should be N/A (process is constructive, not degenerative) 8/8 N/A Excellent
+
+---
+
+Key Findings
+
+1. Split is unanimously detected – all AIs recognised the root/shoot bifurcation as a clear qualitative asymmetry. The refined definition works well for this.
+2. Tension is debated – about half the AIs saw tension (opposing tropisms), the other half saw coordinated growth without conflict. This reflects a genuine ambiguity in the process: tropisms are directional gradients, but they are not necessarily opposing forces in a conflict sense. The refined definition may need to clarify whether a simple polarity counts as tension.
+3. Failed Merge is correctly absent – all AIs agreed no attempt to reintegrate root and shoot. Excellent.
+4. Scar assignment is inconsistent – two AIs (Gemini, Google‑Gemini) assigned scars (cotyledons, side roots) despite no failed merge. Under the refined definition, a scar requires a failed merge residue. This indicates those AIs did not follow the definition strictly. Others correctly said None.
+5. Decay is unanimously absent – all AIs correctly recognised no loss of structure. Good.
+
+---
+
+Comparison to Original Positive Control (May 4, 2026)
+
+Metric Original run (vague definitions) Run 2 (refined)
+Split 8/8 present 8/8 present (consistent)
+Tension 8/8 present (all saw tension) 5/8 present (more nuanced – some said none)
+Failed Merge 7/8 present (most saw a failed merge) 0/8 present (all correctly said N/A) – improvement
+Scar 7/8 present (most saw a scar) 2/8 present (fewer false positives) – improvement
+Decay 8/8 N/A 8/8 N/A (consistent)
+
+Major improvement: The refined definitions successfully eliminated false positives for Failed Merge and Scar in the positive control. Previously, most AIs forced a failed merge and scar onto the bean germination; now none do (except two on scar – still an improvement). This shows the refined definitions are more discriminating for structured processes.
+
+Trade‑off: Tension is now less consistently assigned – but that may be appropriate, as the process can be seen as coordinated rather than oppositional.
+
+---
+
+Recommendations
+
+Issue Proposed Action
+Tension definition Clarify whether simple polarity (e.g., root down / shoot up) counts as “opposition”. Suggest: tension requires that the two forces are competing for the same resource or outcome, not merely different directions. In germination, root and shoot are complementary, so tension = None. This would align with Copilot, Perplexity, Meta.
+Scar assignment Reinforce that a scar can only arise from a failed merge. Since no failed merge occurred, scar must be None. Add explicit instruction: “If Failed Merge is N/A, Scar must also be N/A.” This would prevent the two AIs from incorrectly assigning scars.
+Positive control success The refined lens now correctly identifies the bean process as Split only (or Split + Tension in some interpretations) without forcing failed merge or scar. This is a significant improvement over the original run.
+
+---
+
+Final Verdict
+
+The refined Prime Move lens passes the positive control with much better discrimination than the original. Unanimous Split, no false failed merges, and only minor scar false positives. The remaining ambiguity on Tension can be resolved with a tighter definition.
+
+Next step: Proceed to edge cases with the same refined definitions, but consider adjusting the Tension definition before running them. The negative control (random sequence) already showed over‑detection of tension – this confirms that the definition needs to be stricter. We should update the Tension definition to require regular, structured opposition (e.g., periodic alternation, competing attractors with memory) rather than any high‑low variability.
+
+Would you like to revise the Tension definition now, or continue with the analysis of edge cases using the current refined definitions?
