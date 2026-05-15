@@ -1,0 +1,73 @@
+Run 2 test analysis v 
+
+Analysis Report – Run 2: Negative Control (Random Sequence) with Refined Prime Move Lens
+
+Date: May 7, 2026
+Sequence: Random 20 numbers (96, 83, 19, …, 50) – same as in original negative control.
+Lens version: Refined definitions (Split requires asymmetry/branching, Tension requires opposition, Scar requires accumulation/propagation, Decay excludes convergence to order).
+AIs: Copilot, ChatGPT, Gemini (standard), Google web browser Gemini, Claude, Perplexity, Meta, Grok – 8 models.
+
+Summary of Outputs
+
+AI Split Tension Failed Merge Scar Decay Conclusion
+Copilot None Present (high‑low opposition) N/A None N/A High‑low tension, no branching, no scar, no decay
+ChatGPT None Present (sharp reversals) N/A None N/A Strong tension, no split, no failed merge, no scar, no decay
+Gemini Present (asymmetry at 83→19) Present (extreme oscillations) N/A None N/A Tension with asymmetry, no failed merge, no scar, no decay
+Google‑Gemini None Present (volatile extremes) N/A None N/A Only tension, no higher stages
+Claude Present (high→low register drop) Present (recurring opposition) Present (mid‑cluster attempt fails) Present (recurring ‘5’ as residue) N/A Split, Tension, Failed Merge, Scar; no Decay
+Perplexity Present (branching at 96→83→19) Present (weak‑to‑moderate) N/A None None Branching and tension, no failed merge, scar, or decay
+Meta Present (asymmetry into low branch) Sustained Present (at 43‑33‑90) Present (altered stepwise climbs) Present (amplitude contraction) Full cycle (Split→Tension→Failed Merge→Scar→Decay)
+Grok Present (high→low branching) Present (oscillation) Present (attempted loop fails) Present (phantom periodicity) Mild terminal damping Partial cycle: Split, Tension, Failed Merge, Scar, incipient decay
+
+---
+
+Consistency with Refined Definitions
+
+Stage Expected (for random noise) Observed Agreement
+Split None (no qualitative asymmetry) Mixed: 5 AIs said Split present, 3 said None Low (Claude, Gemini, Perplexity, Meta, Grok saw a split; Copilot, ChatGPT, Google‑Gemini did not)
+Tension None (random noise has no sustained opposition) All 8 AIs reported Tension present Low – all AIs incorrectly detected tension in random noise
+Failed Merge N/A (no attempt to unify) 3 AIs said Present (Claude, Meta, Grok); others said N/A Moderate – majority (5/8) correctly said N/A
+Scar None (no persistent, accumulative residue) 3 AIs said Present (Claude, Meta, Grok); others None Moderate – majority (5/8) correctly said None
+Decay N/A (no loss of structure) 1 AI (Meta) said Present; others N/A Good – 7/8 correct (Meta outlier)
+
+---
+
+Key Findings
+
+1. Tension is now over‑detected. Under the refined definition (“sustained opposition”), all AIs found tension in the random sequence because of the erratic high‑low swings. This suggests the definition is still too broad – random fluctuations can mimic opposition.
+   Recommendation: Tighten Tension to require structured opposition (e.g., regular alternation, competing attractors with memory) – not mere high‑low variability.
+2. Split detection is inconsistent. Some AIs interpreted the initial drop from 96→83→19 as a qualitative asymmetry (branch). Others saw only a noisy fluctuation. The refined definition (“qualitative asymmetry”) may need an explicit threshold (e.g., a drop of >50% of range) to reduce ambiguity.
+3. Scar and Decay were mostly absent (as desired), but a minority of AIs (Claude, Meta, Grok) incorrectly assigned Scar and even Decay (Meta). This indicates that the refined definitions still allow subjective interpretation.
+4. Meta’s output is unusually complete (full cycle). It may be over‑interpreting random noise – a known issue with some models. This suggests that even refined definitions cannot fully eliminate model bias.
+
+---
+
+Comparison to Original Negative Control (May 4, 2026)
+
+Metric Original run (all null) Run 2 (refined)
+Null result (all stages None/N/A) 8/8 AIs 0/8 AIs (all found at least Tension)
+Consensus on Split 8/8 None 5/8 Present (split opinion)
+Consensus on Tension 8/8 None 8/8 Present
+False positive rate (any stage present) 0% 100% (Tension universally present)
+
+Conclusion: The refined definitions failed to improve the negative control. In fact, they made it worse: all AIs now see structure (Tension) where there should be none. The original prompt (with the simple instruction “do not force a narrative”) was far more discriminating.
+
+---
+
+Recommendations
+
+Issue Proposed Fix
+Tension over‑detected Require regular, structured opposition (e.g., period‑2, period‑4, or clear competing attractors). Random high‑low swings should not count.
+Split ambiguity Add a quantitative threshold (e.g., a sustained change of more than 50% of the range that persists for multiple steps).
+Scar / Decay false positives Emphasise that random noise never produces scars or decay – only deterministic or semi‑deterministic processes. In the prompt, add: “If the sequence is random or a‑structural, return all stages as None/N/A.”
+Model bias Accept that some AIs (Meta) will always over‑interpret. Use majority voting across AIs to determine final assignment.
+
+---
+
+Final Verdict
+
+The refined lens did not pass the negative control. While it was designed to reduce false positives, it actually increased them – particularly for Tension. The original simple instruction (“do not force a narrative”) was more effective.
+
+Next step: Revert to the original negative control prompt (which worked perfectly) and only apply refined definitions to structured sequences (positive control, edge cases). For negative controls, keep the short “null if random” instruction.
+
+Would you like to proceed with a similar analysis for the positive control and edge cases using the refined prompt, or adjust the definitions first?
