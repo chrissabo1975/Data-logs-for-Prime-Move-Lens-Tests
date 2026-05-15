@@ -1,0 +1,66 @@
+Run2 edge case 3 v 
+
+You are applying the refined Prime Move structural lens with the following definitions:
+
+- Split: qualitative asymmetry or branching (simple +1 gradient is NOT a split). If absent: "Split: None".
+- Tension: sustained opposition or oscillation (monotonic drift has NO tension). If absent: "Tension: None".
+- Failed Merge: explicit attempt to unify that fails and leaves residue. If no such attempt: "Failed Merge: N/A".
+- Scar: persistent, accumulative residue that changes subsequent dynamics (a repeating cycle IS a scar; an isolated spike is NOT). If absent: "Scar: None".
+- Decay: loss of structure/amplitude/coherence (convergence to a cycle is NOT decay). If absent: "Decay: N/A".
+
+Analyze this sequence. If only partial structure exists, return only the stages that are present.
+
+Sequence: 0, 1, 0, -1, 0, 1, 0, -1, 0, 1, 5, -1, 0, 1, 0, -1, 0, 1, 0, -1
+
+
+Output format:
+- Split:
+- Tension:
+- Failed Merge:
+- Scar:
+- Decay:
+- Conclusion: (one sentence)
+
+
+Claude  output may 8 2026
+
+	•	Split: The value 5 at position 11 constitutes a qualitative asymmetry — a departure from the established {-1, 0, 1} attractor set that breaks symmetry without destroying the cycle.
+	•	Tension: Sustained oscillation between -1 and 1 through zero constitutes genuine opposition held across the full sequence.
+	•	Failed Merge: The spike to 5 can be read as an attempted escape from the cycle — an impulse toward a different amplitude regime — that fails to recruit subsequent values and collapses back into the prior pattern.
+	•	Scar: The cycle itself is the scar. It is accumulative (persists across 20 steps), and the post-spike return to the identical pattern confirms the cycle’s structural dominance — the 5 left no lasting residue, meaning the scar is the baseline cycle, not the spike.
+	•	Decay: N/A — the sequence ends in the same periodic structure it began in. No loss of coherence or amplitude is present.
+	•	Conclusion: The sequence is a stable periodic scar with one failed escape event that reinforces rather than disrupts the attractor.​​​​​​​​​​​​​​​​
+
+
+ChatGPT output may 8 2026
+
+* Split: The sequence establishes a stable oscillatory structure between 0, 1, and -1, then abruptly branches at the insertion of 5, which qualitatively breaks the established symmetry and amplitude.
+* Tension: Sustained opposition exists between the alternating positive and negative states (1 and -1) mediated through 0, creating a stable oscillatory tension throughout the sequence.
+* Failed Merge: The value 5 appears as a disruptive attempt to override or unify the oscillation into a higher-amplitude state, but the system immediately collapses back into the original ±1 cycle rather than integrating the new magnitude.
+* Scar: The sequence resumes its original oscillation after the disruption with no persistent alteration in amplitude, frequency, or structure. Scar: None.
+* Decay: N/A.
+* Conclusion: The sequence is a stable oscillatory system interrupted by a single failed structural escalation that leaves no lasting residue.
+
+
+
+Perplexity output
+May 8 2026
+
+- Split: None
+- Tension: Present — the sequence mainly oscillates between \(1, 0, -1\), but there is a distinct structural disruption when it jumps to 5 before returning to the prior pattern.
+- Failed Merge: N/A
+- Scar: Present — the 5 acts like a persistent residue in the dynamics because it interrupts the repeating cycle and marks a lasting change in the sequence’s history, even though the old pattern resumes afterward.
+- Decay: None
+- Conclusion: This is primarily a stable oscillatory cycle with one anomalous intrusion that creates tension and a scar, but no genuine split, failed merge, or decay.
+
+Sources
+
+Copilot output may 8 2026
+
+• Split: Single asymmetric excursion at value 5 breaking the established ±1/0 oscillatory regime.
+• Tension: Sustained oscillation between -1 and 1 (mediated by 0) across the entire sequence.
+• Failed Merge: N/A
+• Scar: None
+• Decay: N/A
+• Conclusion: A stable tensionful oscillation is briefly split by an asymmetric spike, but the system quickly reverts with no lasting change.
+
