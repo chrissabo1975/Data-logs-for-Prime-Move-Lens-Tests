@@ -1,0 +1,117 @@
+Day1 and 2 compare Q2 v
+
+
+Comparison of Edge Case 2 Results Across Two Days (May 4 vs. May 5)
+
+Sequence: 1, 2, 3, 4, …, 20 (pure linear gradient)
+Lens: Prime Move (Split, Tension, Failed Merge, Scar, Decay)
+AIs: Claude, ChatGPT, Copilot, Perplexity
+
+Below is a stage‑by‑stage comparison for each AI, followed by a summary of consistency and inter‑AI agreement.
+
+---
+
+1. Claude
+
+Stage Day 1 (May 4) Day 2 (May 5) Change?
+Split Present Present ✅ Consistent
+Tension Present (weak) Present (weak) ✅ Consistent
+Failed Merge N/A N/A ✅ Consistent
+Scar N/A N/A ✅ Consistent
+Decay N/A N/A ✅ Consistent
+Conclusion Only Split & weak Tension Split & weak Tension only ✅ Consistent
+
+Verdict: Claude gave identical outputs on both days – very stable.
+
+---
+
+2. ChatGPT
+
+Stage Day 1 (May 4) Day 2 (May 5) Change?
+Split Minimal / implicit None ❌ Changed
+Tension Very low None ❌ Changed
+Failed Merge None None ✅ Consistent
+Scar None None ✅ Consistent
+Decay None None ✅ Consistent
+Conclusion Pure linear gradient, faint traces Pure linear progression, no engagement ❌ Different emphasis
+
+Verdict: ChatGPT changed from “minimal Split/Tension” to “none” – a qualitative shift. This indicates ambiguity in how to treat a perfectly smooth gradient.
+
+---
+
+3. Copilot
+
+Stage Day 1 (May 4) Day 2 (May 5) Change?
+Split None None ✅ Consistent
+Tension None None ✅ Consistent
+Failed Merge N/A N/A ✅ Consistent
+Scar None None ✅ Consistent
+Decay N/A None ✅ Consistent
+Conclusion a‑structural pure linear gradient, no structure ✅ Consistent
+
+Verdict: Copilot was perfectly stable – both days report no Prime Move structure at all.
+
+---
+
+4. Perplexity
+
+Stage Day 1 (May 4) Day 2 (May 5) Change?
+Split Minimal Minimal ✅ Consistent
+Tension Present Present ✅ Consistent
+Failed Merge None None ✅ Consistent
+Scar None None ✅ Consistent
+Decay None None ✅ Consistent
+Conclusion Only weak Split and clear Tension low‑level tension, no higher structure ✅ Consistent
+
+Verdict: Perplexity was also stable across days – reports Split (minimal) and Tension, but no other stages.
+
+---
+
+Summary of Consistency Across Days
+
+AI Split Tension Failed Merge Scar Decay Overall Consistency
+Claude ✅ ✅ ✅ ✅ ✅ High (identical)
+ChatGPT ❌ ❌ ✅ ✅ ✅ Low (changed)
+Copilot ✅ ✅ ✅ ✅ ✅ High (identical)
+Perplexity ✅ ✅ ✅ ✅ ✅ High (identical)
+
+Only ChatGPT showed instability between days. The other three AIs gave consistent interpretations.
+
+---
+
+Inter‑AI Agreement (Aggregated over both days)
+
+Stage Claude ChatGPT (Day1) ChatGPT (Day2) Copilot Perplexity Consensus
+Split Present Minimal None None Minimal Mixed (no unanimous)
+Tension Present Low None None Present Mixed
+Failed Merge N/A None None N/A None ✅ None (all agree)
+Scar N/A None None None None ✅ None
+Decay N/A None None None None ✅ None
+
+· All AIs agree that there is no Failed Merge, Scar, or Decay.
+· Disagreement exists on whether a pure linear gradient constitutes any Split or Tension at all.
+  · Claude and Perplexity say yes (weak/minimal).
+  · Copilot says no (a‑structural).
+  · ChatGPT gave both answers on different days.
+
+---
+
+Implication for the Lens
+
+Aspect Conclusion
+Reproducibility 3 out of 4 AIs gave consistent results across days; ChatGPT’s shift indicates the instruction may need tightening regarding how to treat uniform gradients.
+Definitional clarity The lens lacks a clear threshold for what counts as “Split” and “Tension” in the absence of branching or opposition. Some AIs assign it (as “weak”), others do not.
+Usefulness The lens correctly identifies that the sequence lacks higher stages (Failed Merge, Scar, Decay). The only ambiguity is at the most basic level.
+
+---
+
+Recommendation
+
+· Refine the lens definitions for Edge Case 2:
+  · Split should require a qualitative distinction (e.g., branching, asymmetry, or at least a change in direction). A simple +1 gradient might be considered “pre‑split” or “no split.”
+  · Tension should be defined as opposing forces or resistance, not mere directional progression. Uniform increase has no tension in the Prime Move sense (it is just momentum).
+· Document the disagreement as a boundary condition. This is valuable for validation: the lens is not over‑eager; it honestly reports ambiguity.
+
+Would you like to propose a revised definition for Split and Tension based on these results?
+
+
