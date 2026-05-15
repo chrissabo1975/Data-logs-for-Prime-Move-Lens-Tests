@@ -1,0 +1,71 @@
+Run2 edge case 4 v
+
+
+
+
+You are applying the refined Prime Move structural lens with the following definitions:
+
+- Split: qualitative asymmetry or branching (simple +1 gradient is NOT a split). If absent: "Split: None".
+- Tension: sustained opposition or oscillation (monotonic drift has NO tension). If absent: "Tension: None".
+- Failed Merge: explicit attempt to unify that fails and leaves residue. If no such attempt: "Failed Merge: N/A".
+- Scar: persistent, accumulative residue that changes subsequent dynamics (a repeating cycle IS a scar; an isolated spike is NOT). If absent: "Scar: None".
+- Decay: loss of structure/amplitude/coherence (convergence to a cycle is NOT decay). If absent: "Decay: N/A".
+
+Analyze this sequence. If only partial structure exists, return only the stages that are present.
+
+
+Sequence: 0.5, 0.95, 0.19, 0.61, 0.92, 0.29, 0.81, 0.61, 0.92, 0.29, 0.81, 0.61, 0.92, 0.29, 0.81, 0.61, 0.92, 0.29, 0.81, 0.61
+
+Output format:
+- Split:
+- Tension:
+- Failed Merge:
+- Scar:
+- Decay:
+- Conclusion: (one sentence)
+
+
+Claude output
+May 8 2026
+
+	•	Split: Yes — at step 2→3, the sequence drops from 0.95 to 0.19, a sharp qualitative reversal that creates two distinct regimes (high/low amplitude).
+	•	Tension: Yes — the locked cycle oscillates between competing attractors (~0.29↔0.92 and ~0.61↔0.81), sustaining opposition without resolution.
+	•	Failed Merge: Yes — the initial transient (0.5→0.95→0.19→0.61) attempts to settle but cannot hold the high-amplitude state; the 0.95 peak is never recovered, indicating a failed consolidation into the upper regime.
+	•	Scar: Yes — the repeating 4-cycle {0.61, 0.92, 0.29, 0.81} is itself the scar: a persistent structural residue that now governs all subsequent dynamics, locking the sequence into a constrained attractor.
+	•	Decay: N/A — the sequence converges to a stable cycle with no loss of amplitude or coherence.
+	•	Conclusion: This sequence shows a complete Split→Tension→Failed Merge→Scar arc in which the failure to hold the initial high state (0.95) imprints a permanent 4-cycle attractor, with no subsequent decay.​​​​​​​​​​​​​​​​
+
+ChatGPT output may 8 2026
+
+* Split: The sequence undergoes an early qualitative break after 0.95, collapsing sharply to 0.19 instead of continuing a smooth trajectory. This establishes a bifurcation between high (~0.9) and low (~0.2–0.3) regimes.
+* Tension: Sustained oscillation exists between elevated values (0.92, 0.81) and lower values (0.29, 0.61 acting as a midpoint return). The sequence repeatedly cycles between opposing ranges rather than stabilizing.
+* Failed Merge: After the initial disruption, the system repeatedly returns to 0.61 as if attempting stabilization, but each return immediately re-enters the oscillatory loop (0.61 → 0.92 → 0.29 → 0.81). The attempted convergence never resolves the opposition.
+* Scar: The repeating attractor-cycle (0.61 → 0.92 → 0.29 → 0.81) becomes persistent residue that governs all later behavior. The sequence loses flexibility and becomes trapped in this recurring structural pattern.
+* Decay: N/A
+* Conclusion: The sequence evolves from an early rupture into a locked oscillatory attractor where failed stabilization attempts harden into a persistent cyclic scar.
+
+
+Copilot output may 8 2026
+
+• Split: None
+• Tension: Present as a sustained 4-step oscillation among 0.61 → 0.92 → 0.29 → 0.81 repeating.
+• Failed Merge: N/A
+• Scar: The stable, repeating 4-cycle (0.61, 0.92, 0.29, 0.81) that persists after the initial transient.
+• Decay: N/A
+• Conclusion: An initial transient locks into a persistent 4-cycle, exhibiting ongoing oscillatory tension but no split, failed merge, or decay.
+
+
+Perplexity output
+May 8 2026
+
+- Split: None  
+- Tension: Sustained oscillation within the repeating cycle (0.61 → 0.92 → 0.29 → 0.81), indicating stable dynamic opposition  
+- Failed Merge: N/A  
+- Scar: The system locks into a persistent 4-step cycle after initial transients, and this repeating structure governs all subsequent behavior  
+- Decay: N/A  
+
+- Conclusion: After an initial irregular phase, the sequence stabilizes into a persistent oscillatory cycle that functions as a structural scar without decay or resolution.
+
+Sources
+
+
