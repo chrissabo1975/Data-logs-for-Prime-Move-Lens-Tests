@@ -1,0 +1,67 @@
+Run2 edge case 1 v
+
+
+You are applying the refined Prime Move structural lens with the following definitions:
+
+- Split: qualitative asymmetry or branching (simple +1 gradient is NOT a split). If absent: "Split: None".
+- Tension: sustained opposition or oscillation (monotonic drift has NO tension). If absent: "Tension: None".
+- Failed Merge: explicit attempt to unify that fails and leaves residue. If no such attempt: "Failed Merge: N/A".
+- Scar: persistent, accumulative residue that changes subsequent dynamics (a repeating cycle IS a scar; an isolated spike is NOT). If absent: "Scar: None".
+- Decay: loss of structure/amplitude/coherence (convergence to a cycle is NOT decay). If absent: "Decay: N/A".
+
+Analyze this sequence. If only partial structure exists, return only the stages that are present.
+
+Sequence: 1, 3, 2, 5, 4, 7, 6, 9, 8, 11, 10, 13, 12, 15, 14, 17, 16, 19, 18, 21
+
+Output format:
+- Split:
+- Tension:
+- Failed Merge:
+- Scar:
+- Decay:
+- Conclusion: (one sentence)
+
+
+
+Claude output
+May 8 2026
+	•	Split: Each adjacent pair branches into two competing orderings — the expected increment is repeatedly overshot then corrected (e.g., 1→3→2, 5→4→7→6), creating a persistent fork between “ahead” and “behind” values.
+	•	Tension: Sustained oscillation between over-incremented and under-incremented positions maintains opposition across the full sequence — neither resolves; the alternation is structurally locked.
+	•	Failed Merge: Each correction (3→2, 5→4, 7→6…) attempts to recover linear order but cannot fully rejoin — the next step immediately overshoots again, leaving the two tracks permanently misaligned.
+	•	Scar: The +2/−1 alternating residue is fully accumulative — every pair encodes the same structural offset, and that offset propagates unchanged through all 20 terms, reshaping every subsequent step.
+	•	Decay: N/A — amplitude, coherence, and structure are fully preserved; the pattern neither degrades nor converges.
+	•	Conclusion: This sequence exhibits complete Prime Move structure through Scar with no Decay — the failed merge between linear and skip-counting order leaves a permanent, self-replicating oscillation that drives all subsequent dynamics without dissipation.​​​​​​​​​​​​​​​​
+
+
+
+ChatGPT output may8 2026
+* Split: Present. The sequence bifurcates each adjacent pair into an odd-number ascent followed by a one-step reversal: (1,3,2), (5,4), (7,6), etc. This creates a persistent asymmetry between the expected ascending order and the local inversion.
+* Tension: Present. There is sustained opposition between forward progression (+2 toward the next odd number) and immediate corrective regression (-1 to the preceding even number). The sequence continually oscillates between advance and reversal.
+* Failed Merge: N/A.
+* Scar: Present. The repeated inversion pattern becomes structural residue: every even number persistently lags behind the following odd number instead of integrating into a smooth ascending order. The cycle itself acts as the scar.
+* Decay: N/A.
+* Conclusion: The sequence is a stable oscillatory structure where forward numerical growth is continuously interrupted by localized reversals, producing a persistent patterned scar without collapse or decay.
+
+
+
+Copilot output 
+May 8 2026
+• Split: Two interleaved strands: leading odds \((1,3,5,\ldots,21)\) and lagging evens \((2,4,6,\ldots,18)\) with stable lead/lag asymmetry.
+• Tension: Persistent local oscillation where each even “corrects back” after an odd overshoots, then a new odd jumps ahead again.
+• Failed Merge: N/A
+• Scar: Repeating overshoot/undershoot micro-cycle that imprints a stable, accumulating lead/lag pattern across the whole run.
+• Decay: N/A
+• Conclusion: A stable split with ongoing tension produces a repeating scarred pattern without any move toward resolution or collapse.
+
+
+
+Perplexity output 
+May 8 2026
+- Split: None
+- Tension: None
+- Failed Merge: N/A
+- Scar: None
+- Decay: N/A
+- Conclusion: This sequence shows a stable alternating pairwise swap pattern with no qualitative branching, sustained opposition, failed unification, persistent residue, or structural loss.
+
+Sources
