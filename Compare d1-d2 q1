@@ -1,0 +1,98 @@
+Day 1 and 2 Q1 compare v
+
+Comparison of Edge Case 1 Results Across Two Days (May 4 vs. May 5)
+
+You have the same sequence (1, 3, 2, 5, 4, …, 21) analyzed with the Prime Move lens on two separate days by four AIs (Claude, ChatGPT, Copilot, Perplexity). The prompt and instructions were identical. Below is a stage‑by‑stage comparison for each AI, highlighting consistencies and changes.
+
+---
+
+1. Claude
+
+Stage Day 1 (May 4) Day 2 (May 5) Change?
+Split Present Present ✅ Consistent
+Tension Present Present ✅ Consistent
+Failed Merge Present (shallow) Present (but no residue) ✅ Consistent (both present)
+Scar Present (pattern as scar) N/A (no scar accumulates) ❌ Changed (Present → None)
+Decay N/A N/A ✅ Consistent
+Conclusion Stages 1‑4 present, truncated cycle Split & Tension only, pre‑scar oscillator ❌ Different emphasis
+
+Note: Day 1 saw the repeating pattern as a scar; Day 2 said no scar because no accumulation. This is a meaningful difference in interpretation.
+
+---
+
+2. ChatGPT
+
+Stage Day 1 (May 4) Day 2 (May 5) Change?
+Split Present Present ✅ Consistent
+Tension Present Present ✅ Consistent
+Failed Merge Present (near‑merge fails) None (no attempt to unify) ❌ Changed (Present → None)
+Scar Present (swap pattern) Present (swap pattern) ✅ Consistent
+Decay None None ✅ Consistent
+Conclusion Full cycle except Decay Split, Tension, Scar, no Failed Merge ❌ Different
+
+Note: The interpretation of whether the alternating pattern represents an “attempt to merge” changed between days.
+
+---
+
+3. Copilot
+
+Stage Day 1 (May 4) Day 2 (May 5) Change?
+Split Present Present ✅ Consistent
+Tension Present Present ✅ Consistent
+Failed Merge N/A None/N/A ✅ Consistent
+Scar None None/N/A ✅ Consistent
+Decay N/A None/N/A ✅ Consistent
+Conclusion Partial structure (Split, Tension only) Pure Split‑Tension microcycle ✅ Consistent
+
+Note: Copilot was the most stable across both days, consistently reporting only Split and Tension, with no Failed Merge, Scar, or Decay.
+
+---
+
+4. Perplexity
+
+Stage Day 1 (May 4) Day 2 (May 5) Change?
+Split Present Present ✅ Consistent
+Tension Present Present ✅ Consistent
+Failed Merge None (no attempt to recombine) Present (never settles into standard order) ❌ Changed (None → Present)
+Scar None None ✅ Consistent
+Decay None None ✅ Consistent
+Conclusion Split and Tension only Split, Tension, Failed Merge, no Scar/Decay ❌ Different
+
+Note: Perplexity changed its mind about the presence of a Failed Merge.
+
+---
+
+Summary of Changes Across Days
+
+AI Split Tension Failed Merge Scar Decay Overall consistency
+Claude ✅ ✅ ✅ ❌ ✅ Moderate (Scar changed)
+ChatGPT ✅ ✅ ❌ ✅ ✅ Moderate (Failed Merge changed)
+Copilot ✅ ✅ ✅ ✅ ✅ High
+Perplexity ✅ ✅ ❌ ✅ ✅ Moderate (Failed Merge changed)
+
+Only Copilot gave identical stage assignments on both days. The other three AIs showed variation in at least one stage (Failed Merge or Scar). This indicates that the lens, as currently defined, leaves room for interpretation, especially for edge cases that do not neatly fit the full cycle.
+
+---
+
+Implications for Validation
+
+Aspect Conclusion
+Reproducibility Not perfect – some AIs changed their assessments. This is not necessarily a flaw; it reflects subtlety in the criteria. However, for rigorous falsification, clearer operational definitions are needed (e.g., what counts as a “Failed Merge” vs. a stable alternation?).
+Usefulness Despite variations, all AIs agreed that the sequence has persistent, non‑random structure (Split and Tension). The disagreement lies in higher‑stage assignments (Failed Merge, Scar). This suggests the lens is sensitive to interpretation, which could be improved with more explicit rules.
+Next Step Use these discrepancies to refine the lens definitions. For example, define a Scar as a cumulative change that increases over cycles, not just a repeating pattern. Define Failed Merge as an attempt to integrate that fails, which may not be present in a purely oscillatory system.
+
+---
+
+Final Comparison Table (Aggregated)
+
+AI Day Split Tension Failed Merge Scar Decay
+Claude 1 ✅ ✅ ✅ ✅ ❌
+Claude 2 ✅ ✅ ✅ ❌ ❌
+ChatGPT 1 ✅ ✅ ✅ ✅ ❌
+ChatGPT 2 ✅ ✅ ❌ ✅ ❌
+Copilot 1 ✅ ✅ ❌ ❌ ❌
+Copilot 2 ✅ ✅ ❌ ❌ ❌
+Perplexity 1 ✅ ✅ ❌ ❌ ❌
+Perplexity 2 ✅ ✅ ✅ ❌ ❌
+
+Key takeaway: All AIs consistently identified Split and Tension. Higher stages showed variability both across AIs and across days. This is valuable data for honing the lens. You can now document these discrepancies and propose refinements.
