@@ -1,0 +1,79 @@
+Run 2 edge case 2 v
+
+
+You are applying the refined Prime Move structural lens with the following definitions:
+
+- Split: qualitative asymmetry or branching (simple +1 gradient is NOT a split). If absent: "Split: None".
+- Tension: sustained opposition or oscillation (monotonic drift has NO tension). If absent: "Tension: None".
+- Failed Merge: explicit attempt to unify that fails and leaves residue. If no such attempt: "Failed Merge: N/A".
+- Scar: persistent, accumulative residue that changes subsequent dynamics (a repeating cycle IS a scar; an isolated spike is NOT). If absent: "Scar: None".
+- Decay: loss of structure/amplitude/coherence (convergence to a cycle is NOT decay). If absent: "Decay: N/A".
+
+Analyze this sequence. If only partial structure exists, return only the stages that are present.
+
+Sequence: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
+
+Output format:
+- Split:
+- Tension:
+- Failed Merge:
+- Scar:
+- Decay:
+- Conclusion: (one sentence)
+
+
+Claude output
+May8 2026
+
+	•	Split: None
+	•	Tension: None
+	•	Failed Merge: N/A
+	•	Scar: None
+	•	Decay: N/A
+	•	Conclusion: Uniform linear increment with no asymmetry, opposition, residue, or structural loss — no Prime Move stages present.​​​​​​​​​​​​​​​​
+
+
+
+ChatGPT output may 8 2026
+
+* Split: None
+* Tension: None
+* Failed Merge: N/A
+* Scar: None
+* Decay: N/A
+* Conclusion: The sequence exhibits a uniform monotonic gradient with no qualitative asymmetry, opposition, residue, or structural degradation.
+
+
+Perplexity output may 8 2026
+• Split: None
+• Tension: None
+• Failed Merge: N/A
+• Scar: None
+• Decay: N/A
+• Conclusion: Pure monotonic drift with no qualitative structural events.
+
+- Split: None
+- Tension: None
+- Failed Merge: N/A
+- Scar: None
+- Decay: N/A
+- Conclusion: This sequence is a simple monotonic progression with no branching, opposition, residue, or loss of structure.
+
+Sources
+
+
+Copilot output may 8 2026
+
+• Split: None
+• Tension: None
+• Failed Merge: N/A
+• Scar: None
+• Decay: N/A
+• Conclusion: Pure monotonic drift with no qualitative structural events.- Split: None
+• Tension: None
+• Failed Merge: N/A
+• Scar: None
+• Decay: N/A
+• Conclusion: Pure monotonic drift with no qualitative structural events.
+
+
