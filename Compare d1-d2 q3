@@ -1,0 +1,110 @@
+Day 1 and 2 compare Q3 v
+
+
+
+Comparison of Edge Case 3 Results Across Two Days (May 4 vs. May 5)
+
+Sequence: Periodic oscillation 0,1,0,-1,... with a phase jump (5 at position 10)
+Lens: Prime Move (Split, Tension, Failed Merge, Scar, Decay)
+AIs: Claude, ChatGPT, Copilot, Perplexity
+
+Below is a stage‑by‑stage comparison for each AI, followed by a summary of consistency and inter‑AI agreement.
+
+---
+
+1. Claude
+
+Stage Day 1 (May 4) Day 2 (May 5) Change?
+Split ✅ Present ✅ Present ✅ Consistent
+Tension ✅ Present ✅ Present ✅ Consistent
+Failed Merge ✅ Present (spike as failure) ✅ Present (rupture) ✅ Consistent
+Scar ✅ Weak (suppression scar) 🟡 Partial/Weak (surface scar) ✅ Consistent (both weak)
+Decay ❌ N/A ❌ N/A ✅ Consistent
+Conclusion 4‑stage partial cycle Full cycle through Failed Merge, unusual recovery ✅ Consistent (both describe anomaly without lasting scar)
+
+Verdict: Claude’s interpretation was stable across days – always present Split, Tension, Failed Merge, weak scar, no decay.
+
+---
+
+2. ChatGPT
+
+Stage Day 1 (May 4) Day 2 (May 5) Change?
+Split ✅ Present ✅ Present ✅ Consistent
+Tension ✅ Present ✅ Present ✅ Consistent
+Failed Merge ✅ Present ✅ Present ✅ Consistent
+Scar ✅ Present (point disruption) ❌ None (no persistent deformation) ❌ Changed (Present → None)
+Decay ❌ None ❌ None (rapid re‑stabilization) ✅ Consistent
+Conclusion Stable oscillation with failed perturbation Resilient system, anomaly does not propagate ❌ Different emphasis on scar presence
+
+Verdict: ChatGPT changed its mind about the existence of a Scar – Day 1 said “localized anomaly” as scar; Day 2 said “none persistent”. This indicates ambiguity in what qualifies as a scar (a single point residue vs. no lasting deformation).
+
+---
+
+3. Copilot
+
+Stage Day 1 (May 4) Day 2 (May 5) Change?
+Split ✅ Present ✅ Present ✅ Consistent
+Tension ❌ None ✅ Present ❌ Changed (None → Present)
+Failed Merge ❌ N/A ✅ Present (phase jump) ❌ Changed (N/A → Present)
+Scar ✅ Present (single‑point residue) 🟡 Weak but present (snap‑back) ✅ Consistent (both present)
+Decay ❌ N/A ❌ None ✅ Consistent
+Conclusion Split and Scar only, no Tension or FM Tension, Failed Merge, weak Scar ❌ Major shift in interpretation
+
+Verdict: Copilot changed significantly – on Day 1 it saw no Tension or Failed Merge, only Split and Scar. On Day 2 it recognized Tension and Failed Merge. This is the most unstable AI for this edge case.
+
+---
+
+4. Perplexity
+
+Stage Day 1 (May 4) Day 2 (May 5) Change?
+Split ✅ Present ✅ Present ✅ Consistent
+Tension ✅ Present ✅ Present ✅ Consistent
+Failed Merge ✅ Present ✅ Present (localized) ✅ Consistent
+Scar ❌ None ❌ None ✅ Consistent
+Decay 🟡 Minimal (anomaly collapses) ❌ None ✅ Consistent (none/trivial)
+Conclusion Strong periodic tension, transient perturbation Stable Split‑Tension with transient Failed Merge, no scar ✅ Consistent
+
+Verdict: Perplexity was stable across days – always Split, Tension, Failed Merge, no Scar, no Decay.
+
+---
+
+Summary of Consistency Across Days
+
+AI Split Tension Failed Merge Scar Decay Overall Consistency
+Claude ✅ ✅ ✅ ✅ (weak) ✅ High
+ChatGPT ✅ ✅ ✅ ❌ ✅ Moderate (Scar changed)
+Copilot ✅ ❌ ❌ ✅ ✅ Low (Tension & FM changed)
+Perplexity ✅ ✅ ✅ ✅ ✅ High
+
+Only Copilot showed major instability (flip on Tension and Failed Merge). ChatGPT’s change on Scar is moderate. Claude and Perplexity were consistent.
+
+---
+
+Inter‑AI Agreement (Aggregated over both days)
+
+Stage Claude ChatGPT (Day1) ChatGPT (Day2) Copilot (Day1) Copilot (Day2) Perplexity Consensus
+Split ✅ ✅ ✅ ✅ ✅ ✅ Unanimous (all present)
+Tension ✅ ✅ ✅ ❌ ✅ ✅ Majority present (5/6)
+Failed Merge ✅ ✅ ✅ ❌ ✅ ✅ Majority present (5/6)
+Scar ✅ (weak) ✅ ❌ ✅ ✅ ❌ Split (3 vs. 3) – ambiguous
+Decay ❌ ❌ ❌ ❌ ❌ ❌ Unanimous (none)
+
+· All AIs agree that there is a Split, and that there is no Decay.
+· Most AIs agree on Tension and Failed Merge.
+· Scar is the disputed stage – half say present (Claude, ChatGPT Day1, Copilot), half say absent (ChatGPT Day2, Perplexity, Copilot? Actually Copilot both days said present, so counting: Claude=yes, ChatGPT D1=yes, D2=no, Copilot D1=yes, D2=yes (weak), Perplexity=no. That’s 3.5 yes vs. 2.5 no – near split). This reflects the inherent ambiguity: is a non‑propagating anomaly a scar?
+
+---
+
+Conclusion from Edge Case 3
+
+Aspect Finding
+Reproducibility Most AIs stable, but Copilot changed significantly; ChatGPT changed on Scar.
+Definitional clarity needed Scar definition is ambiguous: does a single spike that leaves no lasting change count? Some AIs say yes (as a record of an event), others say no (needs propagation).
+Utility Despite disagreements, all AIs correctly identified the anomaly as a structural break (Failed Merge) and agreed on Split, Tension, and no Decay. The lens works at a coarse level; refinement is needed for the Scar concept.
+
+Recommendation:
+
+· For validation logging, report consensus (e.g., “3/4 AIs agree on Failed Merge”) and note disagreements.
+· Sharpen the Scar definition: require cumulative or propagating change (e.g., altered period, amplitude, or phase shift after the event). A single, non‑repeating anomaly with immediate return to baseline is a “transient” not a scar.
+
+Would you like a revised definition of Scar to include in the lens prompt?
