@@ -1,0 +1,47 @@
+A Practical Guide to Reverse Engineering Logic
+Using Ethnomethodology + The GENIE Prompt
+
+Reverse engineering logic means deliberately breaking down a system, situation, or idea to reveal its hidden underlying structure — the invisible rules, assumptions, and methods that actually make it work.
+
+Think of it like this. You pick up a phone and want to understand how it’s powered, but you have no idea where to start. You remove the outer case and screen, then strip away every other component until you reach the battery. To truly understand what the battery is made of, you break it apart. This reveals the underlying materials and structure inside. DON’T DO THIS NEXT PART — but the principle holds. This same physical process of reverse engineering applies directly to logic. Stripping problems down and breaching them forces the underlying distinctions to become visible.
+
+What Is This Method? (The Ethnomethodology Connection)
+
+Ethnomethodology, developed by sociologist Harold Garfinkel, studies the practical methods ordinary people use to create social order in everyday life. The key technique is called breaching — you intentionally disrupt normal behavior to expose the scaffolding that usually stays invisible.
+
+One of Garfinkel’s most famous experiments was simple but powerful. He instructed his students to go home and act like a guest in their own house for 15–30 minutes. They were to speak formally, ask permission to use the bathroom, thank family members for ordinary things (“Thank you for allowing me to sit on this chair”), and treat the home as if they were visiting a stranger.
+
+What happened? The families became confused, annoyed, and sometimes angry. They demanded to know what was wrong. The normal flow of family life broke down completely. People worked hard to repair the situation — asking if the student was sick, joking to lighten the mood, or getting upset and demanding they stop.
+
+By deliberately breaking the unspoken rules of being a family member, the students exposed the hidden scaffolding that normally holds family life together. The intense repair efforts revealed just how much invisible work people do every day to maintain social order. This is the power of breaching: when you disrupt the expected flow, the normally invisible rules and structures suddenly become visible.
+
+Why This Was Hidden
+
+The name “Ethnomethodology” is academic and unfamiliar. When explained clearly, the concept at its core is easily understood. Garfinkel’s work was brilliant but dense, never simplified for a general audience, and remained largely inside university sociology departments. This is more than likely the first time you have heard of him or his work. Because of that, his ideas were never turned into a clear, scalable tool for everyday thinking. This article seeks to change that.
+
+Introducing GENIE
+
+I’ve developed an AI prompt for emulating ethnomethodology and breaching experiments. It’s called GENIE. GENIE is a structural analysis engine built on the Prime Move framework — a five-stage diagnostic lens (Split → Tension → Failed Merge → Scar → Decay).
+
+In Stage 1, GENIE strips your idea or system down and places it onto a hierarchical ladder of growth. In Stage 2, it introduces real-world opposing data — advancements in technology, AI hallucinations, AI drift — as the breaching mechanism. These counterpoints disrupt the Stage 1 alignment. The AI then attempts to repair that disruption, and this repair process is logged and analyzed to reveal the underlying structure of the system being studied. The result mirrors what Garfinkel produced in his breaching experiments, but simplified and scaled inside GENIE’s architecture.
+
+How to Use GENIE for Reverse Engineering
+
+Feed GENIE the situation, system, or behavior you want to understand. Ask it to run the five-step analysis and protocol, then read through the output. Next, specifically request a breaching lens — ask it to simulate breaking the normal flow and describe what hidden scaffolding would be revealed. Finally, use Stage Two calibration to cross-check against real-world observations.
+
+Example prompt addition:
+“Apply the Prime Move with a breaching lens. Disrupt the normal flow and show what invisible methods people would use to repair it.”
+
+This turns GENIE into a powerful reverse engineering assistant for any system.
+
+Why This Works
+
+When you deliberately create Failed Merges through breaching, you force the hidden Scars — the unspoken rules and underlying structures — to become visible. The repair attempts reveal the real logic operating underneath. This method works on social situations, habits, technologies, institutions, and even your own thinking.
+
+Ethnomethodology may sound unapproachable at first glance, but its core insight is straightforward: break the normal flow and watch what people do to fix it. That’s where the truth lives. GENIE takes that insight and makes it actionable.
+
+To obtain a full free copy of the GENIE prompt, follow the link:
+G.E.N.I.E. PROMPT
+
+For more information and foundational papers:
+https://humdrum-mountain-1b5.notion.site/Resources-Papers-350b9dd69583809cb95fdcaa776b6644
